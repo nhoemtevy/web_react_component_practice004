@@ -3,7 +3,7 @@
 
 import { Avatar, Dropdown, Navbar } from 'flowbite-react';
 
-export default function NavBarComponent() {
+export default function NavbarComponent() {
   return (
     <Navbar fluid rounded class = "p-3">
       <Navbar.Brand href="https://flowbite-react.com">

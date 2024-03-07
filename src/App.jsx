@@ -1,14 +1,14 @@
 import "./App.css";
-import NavBarComponent from "./components/navbar/Navbar";
+import NavbarComponent from "./components/navbar/Navbar";
 import ProductComponent from "./components/main/ProductCard";
-import FeedBackComponent from "./components/main/FeedbackCard";
+import FeedbackComponent from "./components/main/FeedbackCard";
 import FooterComponent from "./components/footer/Footer";
 function App() {
   return (
     <>
       <header class = "bg-blue-50 h-16 m-0">
         <nav>
-          <NavBarComponent></NavBarComponent>
+          <NavbarComponent></NavbarComponent>
         </nav>
       </header>
       <main className="mx-auto w-[90%] ">
@@ -25,8 +25,8 @@ function App() {
           <h2>Give FeedBack To Us</h2>
         </section>
         <section className="mt-0 w-full">
-          <FeedBackComponent></FeedBackComponent>
-          <FeedBackComponent></FeedBackComponent>
+          <FeedbackComponent></FeedbackComponent>
+          <FeedbackComponent></FeedbackComponent>
         </section>
       </main>
       <footer>

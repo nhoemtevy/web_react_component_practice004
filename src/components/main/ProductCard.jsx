@@ -5,13 +5,12 @@ import { Card } from 'flowbite-react';
 
 export default function ProductComponent() {
   return (
-    <Card className="max-w-sm" imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuNPb0NwDFQ4HTZcobCpCHDxZygZdAYQ8pkA&usqp=CAU" horizontal>
-      <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        Noteworthy technology acquisitions 2021
+    <Card className="max-w-sm bg-blue-50" imgSrc="https://png.pngtree.com/thumb_back/fh260/background/20230901/pngtree-photo-of-products-for-hair-care-image_13116163.jpg" horizontal>
+      <h5 className="text-2xl font-bold tracking-tight text-gray-800 dark:text-white">
+        Hair Product Pictures
       </h5>
       <p className="font-normal text-gray-700 dark:text-gray-400">
-        Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
-      </p>
+      Find the perfect hair product stock photos for your creative projects. Whether you need visuals for your website, social media, or marketing materials, we have you covered with our royalty-free hair product pictures and background images.</p>
     </Card>
   );
 }

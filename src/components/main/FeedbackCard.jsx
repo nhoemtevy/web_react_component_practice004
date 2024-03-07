@@ -2,7 +2,7 @@
 
 import { Avatar, Blockquote, Rating } from "flowbite-react";
 
-export default function FeedBackComponent() {
+export default function FeedbackComponent() {
   return (
     <div className="max-w-screen-md bg-gray-50 my-10">
         <article>
